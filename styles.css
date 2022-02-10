@@ -1106,6 +1106,14 @@ footer .social-icons img:hover {
   .activities-wrapper {
     margin-top: 150px;
   }
+
+  .course p {
+    width: 365px;
+  }
+
+  .course-time p {
+    width: fit-content;
+  }
 }
 
 @media only screen and (max-width: 380px) {
@@ -1136,13 +1144,5 @@ footer .social-icons img:hover {
 
   #hero-first-h1 {
     font-size: 36px;
-  }
-
-  .course p {
-    width: 200px;
-  }
-
-  .course-time p {
-    width: fit-content;
   }
 }
