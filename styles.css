@@ -1041,7 +1041,7 @@ footer .social-icons img:hover {
   }
 
   .hero-image img {
-    width: 230px;
+    width: 195px;
   }
 
   .hero-text {
@@ -1058,6 +1058,7 @@ footer .social-icons img:hover {
 
   .hero {
     margin-bottom: 140px;
+    padding-top: 35px;
   }
 
   .activities-header {
