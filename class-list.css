@@ -221,6 +221,7 @@
 
 .class-officers-header img{
     width: 200px;
+    margin-left: -10px;
 }
 
 .class-officers-list{
@@ -247,7 +248,7 @@
   }
 
   .student-wrapper {
-    padding: 215px 0 40px;
+    padding: 200px 0 20px;
   }
 
   .class-list-header img {
