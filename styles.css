@@ -1024,15 +1024,15 @@ footer .social-icons img:hover {
   }
 
   .hero-text {
-    width: 310px;
+    width: 345px;
   }
 
   .hero-text h1 {
-    font-size: 70px;
+    font-size: 64px;
   }
 
   #hero-first-h1 {
-    font-size: 40px;
+    font-size: 38px;
   }
 
   .hero {
@@ -1045,6 +1045,10 @@ footer .social-icons img:hover {
 
   footer {
     padding: 15px 20px;
+  }
+
+  .cpg2 h1 {
+    width: 190px;
   }
 }
 
