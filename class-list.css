@@ -188,6 +188,10 @@
   .class-officers-header-text{
       margin-left: -70px;
   }
+
+.student-wrapper{
+    background-color: #FBF6F3;
+}
 }
 
 @media only screen and (max-width: 600px) {
