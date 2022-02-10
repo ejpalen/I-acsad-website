@@ -1061,11 +1061,23 @@ footer .social-icons img:hover {
 
   .hero {
     margin-bottom: 140px;
-    padding-top: 35px;
+    padding-top: 20px;
   }
 
   .activities-header {
     margin-bottom: 5px;
+  }
+
+  .hero-text {
+    margin-top: 10px;
+  }
+
+  .hero-text h1 {
+    margin-bottom: 0px;
+  }
+
+  .hero-text a {
+    margin-top: 10px;
   }
 
   footer {
@@ -1074,6 +1086,10 @@ footer .social-icons img:hover {
 
   .cpg2 h1 {
     width: 190px;
+  }
+
+  .class-list-text {
+    margin: 0 auto;
   }
 }
 
