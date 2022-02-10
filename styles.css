@@ -47,7 +47,6 @@ p {
   margin: 5px auto;
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
-  background-color: #18191a;
 }
 
 .nav-menu {
@@ -643,13 +642,14 @@ footer .social-icons img:hover {
   .nav-menu {
     position: fixed;
     left: -100%;
-    top: 74px;
+    top: 73px;
     flex-direction: column;
     width: 100%;
     border-radius: 0px;
     text-align: center;
     transition: 0.3s;
     box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+    border-top: 3px solid #eaeaeb;
   }
 
   .nav-menu.active {
@@ -670,16 +670,19 @@ footer .social-icons img:hover {
 
   .hamburger.active .bar:nth-child(2) {
     opacity: 0;
+    background-color: white;
   }
 
   .hamburger.active .bar:nth-child(1) {
     -webkit-transform: translateY(8px) rotate(45deg);
     transform: translateY(8px) rotate(45deg);
+    background-color: white;
   }
 
   .hamburger.active .bar:nth-child(3) {
     -webkit-transform: translateY(-8px) rotate(-45deg);
     transform: translateY(-8px) rotate(-45deg);
+    background-color: white;
   }
 
   .bar {
