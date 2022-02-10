@@ -1,0 +1,1103 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Montserrat&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+a,
+p {
+  font-size: 16px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 15px 100px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #dce6ff;
+  z-index: 1;
+  border-bottom: 1px solid #eaeaeb;
+}
+
+.navbar img {
+  width: 110px;
+  border-radius: 5px;
+}
+
+.hamburger {
+  display: none;
+}
+
+.bar {
+  display: block;
+  width: 25px;
+  height: 3px;
+  margin: 5px auto;
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+  background-color: #18191a;
+}
+
+.nav-menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-link {
+  margin: 0 5px;
+  padding: 10px 15px;
+  transition: all ease-in-out 0.2s;
+  border-radius: 5px;
+  color: #3c2e61;
+}
+
+.nav-link:hover,
+.active {
+  background-color: #3c2e61;
+  color: white;
+  transition: all ease-in-out 0.2s;
+  box-shadow: 4px 4px #e78ed2;
+}
+
+main {
+  margin: 74px auto 0;
+}
+
+.meet-links-wrapper,
+.hero {
+  width: 1050px;
+  margin: 0 auto;
+}
+
+.hero {
+  display: flex;
+  padding: 50px 0 20px;
+  margin-bottom: 80px;
+}
+
+.hero-image img {
+  width: 320px;
+}
+
+.hero-image {
+  margin: 0 60px 0 0px;
+}
+
+.hero-text {
+  width: 410px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero-text h1 {
+  font-size: 90px;
+  margin-bottom: 10px;
+  color: #3c2e61;
+}
+
+#hero-first-h1 {
+  font-size: 50px;
+  margin-bottom: 0;
+  color: #776d90;
+  font-weight: 500;
+}
+
+.hero-text a {
+  margin-top: 20px;
+  background-color: #3c2e61;
+  width: fit-content;
+  color: white;
+  padding: 15px 30px;
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+}
+
+.hero-text a:hover {
+  transition: all ease-in-out 0.2s;
+  box-shadow: 4px 4px #e78ed2;
+}
+
+.meet-wrapper {
+  background-color: #fdf9f7;
+}
+#links-title {
+  padding-top: 50px;
+  margin-bottom: 30px;
+  font-size: 50px;
+  position: relative;
+  margin-left: -90px;
+}
+
+.meet-wrapper-wimage img {
+  display: none;
+  width: 220px;
+}
+.meet-links-wrapper-header {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-left: -90px;
+}
+
+.link-col1-wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 110px;
+}
+
+.link {
+  width: fit-content;
+  padding: 30px 80px 30px 30px;
+  border-radius: 10px;
+  border: 1px solid #cecbd7;
+  background-color: white;
+  height: fit-content;
+}
+
+.socscieresp {
+  display: none;
+}
+
+.link h1 {
+  font-weight: bold;
+  margin-bottom: 15px;
+  width: 280px;
+  font-size: 26px;
+}
+
+.link .link-sched {
+  display: flex;
+  margin-bottom: 15px;
+  align-items: center;
+}
+
+.link .link-sched img {
+  width: 16px;
+  margin-right: 5px;
+}
+
+.link a {
+  background-color: #3c2e61;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  padding: 10px 15px;
+  color: white;
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+}
+
+.link a:hover {
+  transition: all ease-in-out 0.2s;
+  box-shadow: 4px 4px #e78ed2;
+}
+
+.link a img {
+  width: 16px;
+  margin-right: 5px;
+}
+
+.meet-image img {
+  width: 405px;
+  position: relative;
+  margin-top: -330px;
+}
+
+.meet-image {
+  position: relative;
+}
+
+.link-col1 {
+  display: flex;
+}
+
+.link-col2 {
+  margin-top: 30px;
+  display: flex;
+  margin-right: 100px;
+}
+
+.link-sched p {
+  color: #776d90;
+}
+
+.cpg2 {
+  margin-right: 30px;
+}
+
+.scietechsoc,
+.pcomm,
+.socsciephil,
+.infoman,
+.fitness {
+  margin-right: 30px;
+}
+
+.meet-links-wrapper {
+  padding-bottom: 50px;
+}
+
+.FilDisresp,
+.socscieresp2 {
+  display: none;
+}
+
+.sched-wrapper {
+  display: flex;
+  margin-top: 50px;
+  justify-content: center;
+}
+
+.schedule-image {
+  margin-right: 100px;
+}
+
+.schedule-image img {
+  width: 320px;
+}
+
+.schedule-details h1 {
+  font-size: 30px;
+  margin-bottom: 40px;
+}
+
+.sched-day h1 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.sched-day {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.course {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.course-time {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.course-time img {
+  width: 16px;
+  margin-right: 5px;
+}
+
+.course p {
+  font-size: 18px;
+  width: 285px;
+}
+
+.course-time p {
+  font-size: 18px;
+  font-weight: 500;
+  width: 160px;
+}
+
+.activities-wrapper {
+  background-color: #fbeef8;
+  display: flex;
+  justify-content: center;
+  margin-top: 260px;
+  padding-bottom: 40px;
+}
+
+.activities-header img {
+  display: none;
+}
+
+.activities h1 {
+  font-size: 50px;
+  margin-bottom: 40px;
+  padding-top: 50px;
+  color: #3c2e61;
+}
+
+.activities p {
+  color: #776d90;
+}
+
+.act-course {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+}
+
+.act-course h2 {
+  font-size: 20px;
+  margin-bottom: 5px;
+  font-weight: 500;
+}
+
+a.active-activity {
+  display: flex;
+  align-items: center;
+}
+
+a.active-activity img {
+  margin-left: 10px;
+  width: 20px;
+}
+
+a.active-activity p {
+  color: #3e65fb;
+}
+
+.activities-image img {
+  width: 320px;
+  position: relative;
+  margin-top: -175px;
+}
+
+.activities-image {
+  margin-left: 100px;
+  position: relative;
+}
+
+.class-list {
+  margin-top: 100px;
+  margin-bottom: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.class-list-image img {
+  width: 200px;
+}
+
+.class-list-text {
+  display: flex;
+  flex-direction: column;
+  margin-left: 50px;
+}
+
+.class-list h1 {
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+
+.class-list p {
+  width: 570px;
+  color: #776d90;
+}
+
+.class-list a {
+  margin-top: 20px;
+  background-color: #3c2e61;
+  padding: 15px 30px;
+  width: fit-content;
+  color: white;
+  border-radius: 5px;
+  transition: all ease-in-out 0.2s;
+}
+
+.class-list a:hover {
+  box-shadow: 4px 4px #e78ed2;
+  transition: all ease-in-out 0.2s;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdf9f7;
+  padding: 15px 120px;
+  align-items: center;
+}
+
+#copyrightresp {
+  display: none;
+}
+
+footer #logo {
+  width: 60px;
+  border-radius: 50%;
+  transition: all ease-in-out 0.2s;
+}
+
+footer #logo:hover {
+  background-color: #e1b5d7;
+  transform: scale(1.2);
+  padding: 4px;
+  transition: all ease-in-out 0.2s;
+}
+
+footer .social-icons img {
+  width: 40px;
+  margin-left: 5px;
+  border-radius: 50%;
+  transition: all ease-in-out 0.2s;
+}
+
+footer .social-icons img:hover {
+  background-color: #e1b5d7;
+  padding: 4px;
+  transform: scale(1.2);
+  transition: all ease-in-out 0.2s;
+}
+
+@media only screen and (max-width: 1300px) {
+  .link {
+    padding-right: 45px;
+  }
+
+  .meet-links-wrapper-header,
+  #links-title {
+    margin-left: -60px;
+  }
+
+  .link-col2,
+  .link-col1 {
+    margin-left: -10px;
+  }
+
+  #links-title {
+    margin-left: -70px;
+  }
+
+  .meet-links-wrapper {
+    padding-left: 30px;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .link {
+    padding: 30px;
+    padding-right: 50px;
+  }
+
+  .meet-links-wrapper {
+    padding-left: 50px;
+  }
+
+  .link h1 {
+    width: 220px;
+  }
+
+  .meet-image img {
+    margin-left: -45px;
+  }
+
+  .meet-links-wrapper-header,
+  #links-title {
+    margin-left: 0;
+  }
+
+  .link-col2,
+  .link-col1 {
+    margin-left: 0;
+  }
+
+  .hero-image {
+    margin-left: 60px;
+  }
+}
+
+@media only screen and (max-width: 1100px) {
+  .meet-links-wrapper {
+    padding-left: 30px;
+  }
+
+  #links-title {
+    width: fit-content;
+  }
+
+  .meet-links-wrapper,
+  .hero {
+    width: auto;
+  }
+
+  .meet-image img {
+    width: 320px;
+    margin-left: -40px;
+    margin-top: -290px;
+  }
+
+  .link {
+    padding: 20px 30px 20px 20px;
+  }
+
+  .hero-image {
+    margin-left: 70px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .meet-image img {
+    margin-top: -260px;
+  }
+
+  .socscieresp {
+    display: block;
+  }
+
+  .socsciephil {
+    display: none;
+  }
+
+  .FilDis {
+    display: none;
+    margin-right: 30px;
+  }
+
+  .FilDis,
+  .socscieresp {
+    margin-top: 30px;
+  }
+
+  .FilDisresp,
+  .socscieresp2 {
+    display: block;
+    margin-bottom: 30px;
+  }
+
+  .infoman {
+    margin-bottom: 30px;
+  }
+
+  .FilDisresp {
+    margin-right: 30px;
+  }
+
+  .pcomm {
+    margin-right: 0;
+    margin-bottom: 30px;
+  }
+
+  .meet-links-wrapper {
+    padding-left: 50px;
+    padding-bottom: 50px;
+  }
+
+  .schedule-image {
+    margin-right: 20px;
+  }
+
+  .navbar {
+    padding: 15px 50px;
+  }
+
+  .activities-wrapper {
+    padding: 0px 60px 40px;
+  }
+
+  .class-list {
+    margin: 100px 40px;
+  }
+}
+
+@media only screen and (max-width: 950px) {
+  .meet-links-wrapper {
+    padding-left: 30px;
+  }
+
+  .meet-image img {
+    margin-left: -80px;
+    width: 270px;
+  }
+
+  .meet-links-wrapper {
+    padding-left: 45px;
+  }
+
+  .hero-image img {
+    width: 270px;
+  }
+
+  .hero {
+    margin-bottom: 130px;
+  }
+}
+
+@media only screen and (max-width: 870px) {
+  .navbar {
+    padding: 15px 30px;
+    align-items: center;
+  }
+  .nav-menu {
+    position: fixed;
+    left: -100%;
+    top: 74px;
+    flex-direction: column;
+    width: 100%;
+    border-radius: 0px;
+    text-align: center;
+    transition: 0.3s;
+    box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+  }
+
+  .nav-menu.active {
+    left: 0;
+    background-color: #dce6ff;
+  }
+
+  .nav-item {
+    margin: 25px 0;
+  }
+
+  .hamburger {
+    display: block;
+    cursor: pointer;
+    padding: 5px;
+    border-radius: 5px;
+  }
+
+  .hamburger.active .bar:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active .bar:nth-child(1) {
+    -webkit-transform: translateY(8px) rotate(45deg);
+    transform: translateY(8px) rotate(45deg);
+  }
+
+  .hamburger.active .bar:nth-child(3) {
+    -webkit-transform: translateY(-8px) rotate(-45deg);
+    transform: translateY(-8px) rotate(-45deg);
+  }
+
+  .bar {
+    background-color: #3c2e61;
+  }
+
+  .active {
+    background: #3c2e61;
+    box-shadow: none;
+  }
+
+  .hero {
+    flex-direction: column;
+    margin-bottom: 170px;
+  }
+
+  .hero-image {
+    margin: 0 auto;
+  }
+
+  .hero-text {
+    text-align: center;
+    margin: 20px auto 0;
+  }
+
+  .hero-text a {
+    margin: 20px auto 0;
+  }
+
+  .meet-links-wrapper {
+    padding-left: 30px;
+  }
+  .sched-wrapper {
+    flex-direction: column;
+  }
+
+  .sched-day {
+    width: fit-content;
+    margin: 40px auto 0;
+  }
+
+  .schedule-image {
+    margin: 0 auto;
+  }
+
+  .schedule-day-wrapper {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  #links-title {
+    font-size: 40px;
+    padding-top: 72px;
+  }
+
+  .link h1 {
+    font-size: 22px;
+  }
+
+  .link h1 {
+    width: 185px;
+  }
+
+  .class-list h1 {
+    font-size: 30px;
+  }
+
+  .class-list p {
+    width: 380px;
+  }
+
+  .activities-image img {
+    width: 270px;
+  }
+
+  .activities h1 {
+    font-size: 30px;
+  }
+
+  .activities-image {
+    margin-left: 40px;
+  }
+
+  .meet-image img {
+    margin-left: -150px;
+    margin-top: -345px;
+  }
+
+  .link-col1-wrapper {
+    margin-top: 30px;
+  }
+
+  .meet-image img {
+    display: none;
+  }
+
+  .meet-wrapper-wimage {
+    display: flex;
+    justify-content: center;
+  }
+
+  .meet-wrapper-wimage img {
+    width: 220px;
+    display: block;
+    position: relative;
+    margin-top: -110px;
+    margin-left: -55px;
+  }
+
+  .meet-links-wrapper {
+    padding: 0;
+    padding-bottom: 50px;
+  }
+
+  .link-col1-wrapper {
+    margin: 30px auto;
+  }
+  .link-col2 {
+    flex-wrap: nowrap;
+    margin: 0 auto;
+  }
+
+  .link {
+    padding: 30px 20px;
+  }
+
+  .activities-image img {
+    width: 200px;
+    margin-left: -20px;
+    margin-top: -115px;
+  }
+
+  .activities-wrapper {
+    padding: 0px 30px 40px;
+  }
+
+  .activities h1 {
+    padding-top: 30px;
+  }
+
+  .activities-image {
+    margin-left: 0;
+  }
+
+  .sched-day h1 {
+    font-size: 30px;
+  }
+
+  footer {
+    padding: 15px 80px;
+    flex-direction: column;
+  }
+
+  footer #logo {
+    margin-bottom: 15px;
+    display: none;
+  }
+
+  #copyrightresp {
+    display: block;
+    margin-top: 15px;
+    font-size: 12px;
+  }
+
+  #copyright {
+    display: none;
+  }
+
+  .activities-wrapper {
+    margin-top: 170px;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+  #links-title {
+    width: 270px;
+  }
+
+  .class-list p {
+    width: 255px;
+  }
+
+  .class-list h1 {
+    width: 215px;
+  }
+
+  .class-list-text {
+    margin-left: 20px;
+  }
+}
+
+@media only screen and (max-width: 590px) {
+  .course {
+    flex-direction: column;
+  }
+
+  .course p {
+    width: fit-content;
+    font-size: 22px;
+    color: #3c2e61;
+    font-weight: 500;
+  }
+
+  .course-time p {
+    font-size: 16px;
+    font-weight: 500;
+  }
+
+  .course-time {
+    margin-left: 0;
+  }
+
+  .schedule-day-wrapper {
+    text-align: center;
+  }
+
+  .sched-wrapper {
+    margin-top: 20px;
+  }
+
+  .schedule-image img {
+    width: 220px;
+  }
+
+  .class-list {
+    flex-direction: column;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+
+  .class-list h1 {
+    margin: 10px auto 15px;
+    width: 80%;
+  }
+
+  .class-list p {
+    margin: 0 auto;
+    width: 80%;
+  }
+
+  .class-list-text a {
+    margin: 15px auto 0;
+  }
+
+  .link {
+    padding: 30px 15px;
+  }
+
+  .cpg2,
+  .scietechsoc,
+  .pcomm,
+  .socsciephil,
+  .infoman,
+  .fitness,
+  .FilDisresp {
+    margin-right: 15px;
+  }
+
+  .pcomm {
+    margin-right: 0;
+  }
+
+  .activities-header {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+  }
+
+  .activities-header img {
+    display: block;
+    width: 200px;
+    position: relative;
+    margin-top: -110px;
+  }
+
+  .activities-image img {
+    display: none;
+  }
+
+  .activities h1 {
+    padding-top: 40px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .link-col2,
+  .link-col1 {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .meet-links-wrapper-header {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .link {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+
+  .link h1 {
+    width: auto;
+  }
+
+  .cpg2,
+  .scietechsoc,
+  .pcomm,
+  .socsciephil,
+  .infoman,
+  .fitness,
+  .FilDisresp {
+    margin-right: 0;
+    margin: 0 auto 20px;
+  }
+
+  .link-col1-wrapper {
+    width: 90%;
+    margin: 30px auto 0;
+  }
+
+  .link-col2 {
+    width: 90%;
+  }
+
+  .meet-wrapper-wimage {
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  .meet-wrapper-wimage img {
+    width: 180px;
+    height: 245px;
+    margin-left: -85px;
+    margin-top: -100px;
+  }
+
+  #links-title {
+    font-size: 32px;
+    width: 185px;
+    padding-top: 40px;
+  }
+
+  .hero-image img {
+    width: 230px;
+  }
+
+  .hero-text {
+    width: 310px;
+  }
+
+  .hero-text h1 {
+    font-size: 70px;
+  }
+
+  #hero-first-h1 {
+    font-size: 40px;
+  }
+
+  .hero {
+    margin-bottom: 140px;
+  }
+
+  .activities-header {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    padding: 15px 20px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+  .activities-header img {
+    margin-top: -92px;
+    width: 170px;
+  }
+
+  .activities h1 {
+    padding-top: 25px;
+  }
+
+  .activities-wrapper {
+    margin-top: 150px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .activities h1 {
+    font-size: 25px;
+    width: 120px;
+  }
+
+  .act-course h2 {
+    font-size: 18px;
+  }
+
+  .activities-header img {
+    width: 150px;
+    margin-left: -10px;
+    margin-top: -80px;
+  }
+
+  .activities-header {
+    justify-content: center;
+  }
+}
+
+@media only screen and (max-width: 365px) {
+  .hero-text h1 {
+    font-size: 60px;
+  }
+
+  #hero-first-h1 {
+    font-size: 36px;
+  }
+
+  .course p {
+    width: 200px;
+  }
+
+  .course-time p {
+    width: fit-content;
+  }
+}

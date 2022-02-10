@@ -1,0 +1,250 @@
+.class-officers-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 120px;
+}
+
+.class-officers-header h1 {
+  font-size: 60px;
+  margin-bottom: 10px;
+}
+.class-officers-header img {
+  width: 280px;
+}
+
+.class-officers-list {
+  margin-top: 60px;
+  background-color: #fbeef8;
+  padding: 50px 20px;
+}
+
+.class-officers-list-col1 {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  justify-content: center;
+  row-gap: 60px;
+  column-gap: 60px;
+}
+
+.class-officers-list-col2 {
+  margin-top: 60px;
+  margin: 60px 40px 0;
+  display: grid;
+  align-items: center;
+  grid-template-columns: repeat(3, 30%);
+  row-gap: 60px;
+  column-gap: 60px;
+  justify-content: center;
+}
+
+.officer-name {
+  width: 200px;
+}
+
+.officer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.officer img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.officer p {
+  width: 100%;
+}
+
+.class-list-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.class-list-header img {
+  height: 350px;
+  margin-right: 80px;
+}
+
+.class-list-header h1 {
+  font-size: 60px;
+}
+
+.class-list-column {
+  display: grid;
+  justify-content: center;
+  margin-bottom: 30px;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 10px;
+}
+
+.student-wrapper {
+  background-color: #fdf9f7;
+  padding: 40px;
+  margin-bottom: 60px;
+}
+
+.student {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+  justify-content: center;
+}
+
+.student img {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.student p {
+  width: 200px;
+}
+
+.officerresp {
+  display: none;
+}
+
+@media only screen and (max-width: 870px) {
+  .class-officers-list-col2 {
+    grid-template-columns: repeat(2, 45%);
+  }
+
+  .class-officers-list-col1 {
+    grid-template-columns: repeat(2, 45%);
+    margin: 0 40px 0;
+  }
+
+  .officer-name {
+    width: 125px;
+  }
+
+  .class-officers-list-col1 .officer {
+    display: none;
+  }
+
+  .officerresp {
+    display: flex;
+  }
+  .class-officers-header img {
+    width: 200px;
+  }
+
+  .class-officers-header {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .class-officers-header h1,
+  .class-list-header h1 {
+    font-size: 40px;
+  }
+
+  .class-officers-header h1 {
+    margin-top: 20px;
+  }
+
+  .class-list-header img {
+    margin-right: 20px;
+  }
+
+  .class-list-column {
+    grid-template-columns: repeat(2, 45%);
+  }
+
+  .class-officers-list {
+    margin-top: 20px;
+  }
+
+  .class-list-header img {
+    height: 230px;
+  }
+
+  .class-list-header {
+    margin-top: 30px;
+    margin-bottom: 20px;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .class-officers-list-col2 {
+    grid-gap: 10px;
+    margin: 60px 10px 0;
+  }
+  .class-officers-list-col2 {
+    margin-top: 20px;
+  }
+
+  .officer p {
+    width: 70px;
+  }
+
+  .officer-name h2 {
+    font-size: 20px;
+  }
+
+  .class-officers-list {
+    padding: 50px 0;
+  }
+
+  .student p {
+    width: 100px;
+  }
+
+  .student {
+    margin: 0;
+  }
+
+  .student-wrapper {
+    padding: 40px 0;
+  }
+}
+
+@media only screen and (max-width: 450px) {
+  .officer img,
+  .student img {
+    width: 60px;
+  }
+
+  .officer-name h2 {
+    font-size: 18px;
+  }
+
+  .officer-name p {
+    font-size: 15px;
+  }
+
+  .class-officers-list {
+    padding: 30px 0 50px;
+  }
+
+  .student p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (max-width: 380px) {
+  .student p {
+    font-size: 12px;
+  }
+
+  .officer-name p {
+    font-size: 14px;
+  }
+
+  .officer-name h2 {
+    font-size: 15px;
+  }
+
+  .officer img,
+  .student img {
+    width: 55px;
+  }
+  .class-list-header img {
+    margin-right: 0;
+    height: 195px;
+  }
+}
