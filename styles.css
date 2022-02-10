@@ -72,6 +72,11 @@ p {
   box-shadow: 4px 4px #e78ed2;
 }
 
+#nav-actresp,
+#nav-meetlinkresp {
+  display: none;
+}
+
 main {
   margin: 74px auto 0;
 }
@@ -684,6 +689,22 @@ footer .social-icons img:hover {
   .active {
     background: #3c2e61;
     box-shadow: none;
+  }
+
+  #nav-actresp,
+  #nav-meetlinkresp {
+    display: block;
+  }
+
+  #nav-act,
+  #nav-meetlink {
+    display: none;
+  }
+
+  .nav-item #nav-act {
+    display: none;
+    height: 0;
+    margin: 0;
   }
 
   .hero {
