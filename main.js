@@ -17,7 +17,7 @@ var purcom = "<h3>Quiz in Friday</h3>";
 var fildis = "<h3>GAWAIN 1</h3>";
 var ssp = "<h3></h3>";
 var infoman = "<h3>Quiz in TBL</h3>";
-var probstat = "<h3>Activity 3</h3>";
+var probstat = "<h3>Activity 1 - Simple Probability</h3>";
 var fitness = "<h3></h3>";
 var nstp = "<h3></h3>";
 
