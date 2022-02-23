@@ -48,13 +48,16 @@
       <div class="hero">
         <div class="hero-image"><img src="images/hero.png" alt="" /></div>
         <div class="hero-text">
-          <h1 id="hero-first-h1">Hello,</h1>
-          <h1>I-ACSAD</h1>
+          <div class="hero-text-h1">
+          <h1 id="hero-first-h1">Hello, </h1>
+          <h1> I-ACSAD</h1>
+        </div>
+        <div class="header-acts" id="header-acts">
           <p>
             This is your on-the-go site for the Gmeet links, Schedules,
             Activities, etc.
           </p>
-          <a id="explore" href="#explore">Explore</a>
+        </div>
         </div>
       </div>
     </div>
@@ -102,7 +105,7 @@
                   <img src="images/link-time.png" alt="" />
                   <p>3:00pm-4:30pm</p>
                 </div>
-                <a href="">
+                <a href="https://meet.google.com/nvz-ifuw-xzh" target="_blank">
                   <img src="images/link-click.png" alt="" />
                   <p>Click here</p>
                 </a>
@@ -113,7 +116,7 @@
                   <img src="images/link-time.png" alt="" />
                   <p>9:00am-10:30am</p>
                 </div>
-                <a href="">
+                <a href="https://meet.google.com/cno-ytxf-bqm" target="_blank">
                   <img src="images/link-click.png" alt="" />
                   <p>Click here</p>
                 </a>
@@ -137,7 +140,7 @@
                   <img src="images/link-time.png" alt="" />
                   <p>12:00pm-1:30pm</p>
                 </div>
-                <a href="">
+                <a href="https://meet.google.com/qyz-ddcb-cjc" target="_blank">
                   <img src="images/link-click.png" alt="" />
                   <p>Click here</p>
                 </a>
@@ -262,7 +265,7 @@
                     <p>Filipino sa Iba’t- Ibang Disiplina</p>
                     <div class="course-time">
                         <img src="images/link-time.png" alt="">
-                        <p>12:00pm-1:3pam</p>
+                        <p>12:00pm-1:30pm</p>
                     </div>
                 </div>
                 <div class="course mon3">
@@ -374,49 +377,44 @@
       </div>
         <div class="act-course">
             <h2>Computer Programming 2</h2>
-            <a class="active-activity" href=""><p>What do you know in OOP and graphics/ applet?<br>
-              What do you want to know in COMPROG2?<br>
-              What did you learn in COMPROG1?</p>
-              <img src="images/link-active.png" alt=""></a>
+            <p id="comprog-activities">None</p>
         </div>
         <div class="act-course">
             <h2>WebApp Development</h2>
-            <p>None</p>
+            <p id="webapp-activities">None</p>
         </div>
         <div class="act-course">
             <h2>Science, Technology and Society</h2>
-            <p>None</p>
+            <p id="sts-activities">None</p>
         </div>
         <div class="act-course">
             <h2>Purposive Communication</h2>
-            <a class="active-activity" href="https://tbl.umak.edu.ph/mod/folder/view.php?id=257416" target="_blank"><p>Tasks 1, 2, 3, and 4</p>
-            <img src="images/link-active.png" alt=""></a>
+            <p id="purcom-activities"></p>
         </div>
         <div class="act-course">
             <h2>Filipino sa iba’t-ibang disiplina</h2>
-            <p>None</p>
+            <p id="fildis-activities">None</p>
         </div>
         <div class="act-course">
             <h2>Social Science and Philosophy</h2>
-            <a class="active-activity" href="https://tbl.umak.edu.ph/mod/assign/view.php?id=255488" target="_blank"><p>Pre-orientation Task</p>
-                <img src="images/link-active.png" alt=""></a>
+            <div class="ssp-activities" id="ssp-activities">
+            </div>
         </div>
         <div class="act-course">
             <h2>Information Management</h2>
-            <p>None</p>
+            <p id="infoman-activities">None</p>
         </div>
         <div class="act-course">
             <h2>Probability and Statistics</h2>
-            <a class="active-activity" href="https://tbl.umak.edu.ph/mod/assign/view.php?id=237056" target="_blank"><p>Activity 1</p>
-                <img src="images/link-active.png" alt=""></a>
+            <p id="probstat-activities">None</p>
         </div>
         <div class="act-course">
             <h2>Fitness Exercise</h2>
-            <p>None</p>
+            <p id="fitness-activities">None</p>
         </div>
         <div class="act-course">
             <h2>NSTP</h2>
-            <p>None</p>
+            <p id="nstp-activities">None</p>
         </div>
     </div>
     <div class="activities-image">
@@ -469,5 +467,7 @@
     navMenu.classList.remove("active");
   }
 </script>
+
+<script src="main.js"></script>
   </body>
 </html>
