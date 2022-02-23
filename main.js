@@ -114,7 +114,7 @@ if (thereIsNstp) {
 
 acts.innerHTML = "";
 acts.innerHTML =
-  "<h2>Your upcoming activites and class this week:</h2> " +
+  "<h2>Your upcoming activites this week:</h2> " +
   webAppActHero +
   comProgActHero +
   stsActHero +
