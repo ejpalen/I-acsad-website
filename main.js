@@ -10,15 +10,15 @@ var ProbStatActsHTML = document.getElementById("probstat-activities");
 var FitnessActsHTML = document.getElementById("fitness-activities");
 var NSTPActsHTML = document.getElementById("nstp-activities");
 
-var webApp = "<h3>HANDS ON</h3>";
-var comProg = "<h3>Assignment 1: Review in Control Structures</h3>";
+var webApp = "<h3>HANDS ON [Due: Mon]</h3>";
+var comProg = "<h3>Assignment 1: Review in Control Structures</h3> [Due: Sat]";
 var sts = "<h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
-var purcom = "<h3>Quiz in Friday</h3>";
-var fildis = "<h3>GAWAIN 1</h3>";
+var purcom = "<h3>Quiz [Fri]</h3>";
+var fildis = "<h3>GAWAIN 1 [Due: Fri]</h3>";
 var ssp = "<h3></h3>";
 var infoman = "<h3>Quiz in TBL</h3>";
 var probstat = "<h3>Activity 1 - Simple Probability</h3>";
-var fitness = "<h3></h3>";
+var fitness = "<h3>3.4 Quiz - Water and Hydration [Due: Fri]</h3>";
 var nstp = "<h3></h3>";
 
 var thereIsWeb = true;
@@ -29,7 +29,7 @@ var thereIsFildis = true;
 var thereIsSSP = false;
 var thereIsInfoman = true;
 var thereIsProbstat = true;
-var thereIsFitness = false;
+var thereIsFitness = true;
 var thereIsNstp = false;
 
 if (thereIsWeb) {
