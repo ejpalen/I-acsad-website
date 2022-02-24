@@ -12,7 +12,8 @@ var NSTPActsHTML = document.getElementById("nstp-activities");
 
 var webApp = "<h3>HANDS ON [Due: Mon]</h3>";
 var comProg = "<h3>Assignment 1: Review in Control Structures [Due: Sat]</h3> ";
-var sts = "<h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
+var sts =
+  "<h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
 var purcom = "<h3>Quiz [Fri]</h3>";
 var fildis = "<h3>GAWAIN 1 [Due: Fri]</h3>";
 var ssp = "<h3></h3>";
@@ -112,8 +113,11 @@ if (thereIsNstp) {
   NSTPActsHTML.innerHTML = "None";
 }
 
+var updateTime = "<p>Updated: 2/24/2022 5:00PM</p>";
+
 acts.innerHTML = "";
 acts.innerHTML =
+  updateTime +
   "<h2>Your upcoming activites this week:</h2> " +
   webAppActHero +
   comProgActHero +
