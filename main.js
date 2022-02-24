@@ -12,7 +12,7 @@ var NSTPActsHTML = document.getElementById("nstp-activities");
 
 var webApp = "<h3>HANDS ON</h3>";
 var comProg = "<h3>Assignment 1: Review in Control Structures</h3>";
-var sts = "<h3></h3>";
+var sts = "<h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
 var purcom = "<h3>Quiz in Friday</h3>";
 var fildis = "<h3>GAWAIN 1</h3>";
 var ssp = "<h3></h3>";
@@ -23,7 +23,7 @@ var nstp = "<h3></h3>";
 
 var thereIsWeb = true;
 var thereIsComprog = true;
-var thereIsSts = false;
+var thereIsSts = true;
 var thereIsPurcom = true;
 var thereIsFildis = true;
 var thereIsSSP = false;
