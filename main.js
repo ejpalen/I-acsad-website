@@ -11,7 +11,7 @@ var FitnessActsHTML = document.getElementById("fitness-activities");
 var NSTPActsHTML = document.getElementById("nstp-activities");
 
 var webApp = "<h3>HANDS ON [Due: Mon]</h3>";
-var comProg = "<h3>Assignment 1: Review in Control Structures</h3> [Due: Sat]";
+var comProg = "<h3>Assignment 1: Review in Control Structures [Due: Sat]</h3> ";
 var sts = "<h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
 var purcom = "<h3>Quiz [Fri]</h3>";
 var fildis = "<h3>GAWAIN 1 [Due: Fri]</h3>";
