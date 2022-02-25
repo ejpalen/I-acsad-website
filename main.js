@@ -14,23 +14,23 @@ var webApp = "<h3>HANDS ON [Due: Mon]</h3>";
 var comProg = "<h3>Assignment 1: Review in Control Structures [Due: Sat]</h3> ";
 var sts =
   "<h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
-var purcom = "<h3>Quiz [Fri]</h3>";
-var fildis = "<h3>GAWAIN 1 [Due: Fri]</h3>";
+var purcom = "<h3>Quiz [Tuesday]</h3>";
+var fildis = "<h3></h3>";
 var ssp = "<h3></h3>";
 var infoman = "<h3>Quiz in TBL</h3>";
 var probstat = "<h3>Activity 1 - Simple Probability</h3>";
-var fitness = "<h3>3.4 Quiz - Water and Hydration [Due: Fri]</h3>";
+var fitness = "<h3></h3>";
 var nstp = "<h3></h3>";
 
 var thereIsWeb = true;
 var thereIsComprog = true;
 var thereIsSts = true;
 var thereIsPurcom = true;
-var thereIsFildis = true;
+var thereIsFildis = false;
 var thereIsSSP = false;
 var thereIsInfoman = true;
 var thereIsProbstat = true;
-var thereIsFitness = true;
+var thereIsFitness = false;
 var thereIsNstp = false;
 
 if (thereIsWeb) {
@@ -113,7 +113,7 @@ if (thereIsNstp) {
   NSTPActsHTML.innerHTML = "None";
 }
 
-var updateTime = "<p>Updated: 2/24/2022 5:00PM</p>";
+var updateTime = "<p>Updated: 2/25/2022 2:20PM</p>";
 
 acts.innerHTML = "";
 acts.innerHTML =
