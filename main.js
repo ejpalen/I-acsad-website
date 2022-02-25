@@ -51,7 +51,7 @@ if (thereIsComprog) {
 
 if (thereIsSts) {
   STSActsHTML.innerHTML = sts;
-  var stsActHero = "STS" + sts;
+  var stsActHero = "STS:" + sts;
 } else {
   var stsActHero = "";
   STSActsHTML.innerHTML = "None";
