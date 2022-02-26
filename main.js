@@ -16,7 +16,7 @@ var sts =
   "<h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
 var purcom = "<h3>Quiz [Tuesday]</h3>";
 var fildis = "<h3></h3>";
-var ssp = "<h3></h3>";
+var ssp = "<h3>EM-at3.  Market Structures [Due: Fri]</h3>";
 var infoman = "<h3>Quiz in TBL</h3>";
 var probstat = "<h3>Activity 1 - Simple Probability</h3>";
 var fitness = "<h3></h3>";
@@ -27,7 +27,7 @@ var thereIsComprog = false;
 var thereIsSts = true;
 var thereIsPurcom = true;
 var thereIsFildis = false;
-var thereIsSSP = false;
+var thereIsSSP = true;
 var thereIsInfoman = true;
 var thereIsProbstat = true;
 var thereIsFitness = false;
