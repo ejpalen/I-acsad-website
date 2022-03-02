@@ -10,14 +10,14 @@ var ProbStatActsHTML = document.getElementById("probstat-activities");
 var FitnessActsHTML = document.getElementById("fitness-activities");
 var NSTPActsHTML = document.getElementById("nstp-activities");
 
-var webApp = "<h3>HANDS ON [Due: Mon]</h3>";
+var webApp = "<h3>Quiz [Due:Thurs]</h3>";
 var comProg = "<h3></h3> ";
-var sts ="<h3>Quiz in TBL [Due: Mon]</h3><h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
-var purcom = "<h3>Quiz [Tuesday]</h3>";
+var sts ="<h3>Quiz in TBL [Resched]</h3><h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
+var purcom = "<h3>Quiz [Fri]</h3>";
 var fildis = "<h3></h3>";
 var ssp = "<h3>Quiz 1 [Due: Thurs]</h3><h3>EM-at3.  Market Structures [Due: Fri]</h3>";
 var infoman = "<h3>Quiz in TBL</h3>";
-var probstat = "<h3>Activity 1 - Simple Probability</h3><h3>Quiz [Wed]</h3>";
+var probstat = "<h3>Activity 1 - Simple Probability</h3>";
 var fitness = "<h3></h3>";
 var nstp = "<h3></h3>";
 
@@ -112,7 +112,7 @@ if (thereIsNstp) {
   NSTPActsHTML.innerHTML = "None";
 }
 
-var updateTime = "<p>Updated: 2/27/2022 11:37PM</p>";
+var updateTime = "<p>Updated: 3/2/2022 9:55 PM</p>";
 
 acts.innerHTML = "";
 acts.innerHTML =
