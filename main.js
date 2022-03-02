@@ -11,7 +11,7 @@ var FitnessActsHTML = document.getElementById("fitness-activities");
 var NSTPActsHTML = document.getElementById("nstp-activities");
 
 var webApp = "<h3>Quiz [Due:Thurs]</h3>";
-var comProg = "<h3></h3> ";
+var comProg = "<h3>Asynchronous Activity (Table)</h3> ";
 var sts ="<h3>Quiz in TBL [Resched]</h3><h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
 var purcom = "<h3>Quiz [Fri]</h3>";
 var fildis = "<h3></h3>";
@@ -22,7 +22,7 @@ var fitness = "<h3></h3>";
 var nstp = "<h3></h3>";
 
 var thereIsWeb = true;
-var thereIsComprog = false;
+var thereIsComprog = true;
 var thereIsSts = true;
 var thereIsPurcom = true;
 var thereIsFildis = false;
