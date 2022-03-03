@@ -22,7 +22,7 @@ var fitness = "<h3></h3>";
 var nstp = "<h3></h3>";
 
 var thereIsWeb = true;
-var thereIsComprog = true;
+var thereIsComprog = false;
 var thereIsSts = true;
 var thereIsPurcom = true;
 var thereIsFildis = false;
