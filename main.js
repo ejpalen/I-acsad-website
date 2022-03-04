@@ -112,7 +112,7 @@ if (thereIsNstp) {
   NSTPActsHTML.innerHTML = "None";
 }
 
-var updateTime = "<p>Updated: 3/4/2022 8:15 PM</p>";
+var updateTime = "<p>Updated: 3/4/2022 8:15 AM</p>";
 
 acts.innerHTML = "";
 acts.innerHTML =
