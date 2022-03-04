@@ -13,7 +13,7 @@ var NSTPActsHTML = document.getElementById("nstp-activities");
 var webApp = "<h3></h3>";
 var comProg = "<h3></h3> ";
 var sts ="<h3>STEP 3: Accomplish the Student Contract for Flexible Learning</h3>";
-var purcom = "<h3>Quiz [Fri]</h3>";
+var purcom = "<h3></h3>";
 var fildis = "<h3></h3>";
 var ssp = "<h3>EM-at3.  Market Structures [Due: Fri]</h3>";
 var infoman = "<h3>Quiz in TBL</h3><h3>Asynchronous Activity (Table)</h3>";
@@ -24,7 +24,7 @@ var nstp = "<h3></h3>";
 var thereIsWeb = false;
 var thereIsComprog = false;
 var thereIsSts = true;
-var thereIsPurcom = true;
+var thereIsPurcom = false;
 var thereIsFildis = false;
 var thereIsSSP = true;
 var thereIsInfoman = true;
@@ -112,7 +112,7 @@ if (thereIsNstp) {
   NSTPActsHTML.innerHTML = "None";
 }
 
-var updateTime = "<p>Updated: 3/4/2022 8:15 AM</p>";
+var updateTime = "<p>Updated: 3/4/2022 4:58 PM</p>";
 
 acts.innerHTML = "";
 acts.innerHTML =
