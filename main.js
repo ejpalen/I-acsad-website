@@ -11,18 +11,18 @@ var FitnessActsHTML = document.getElementById("fitness-activities");
 var NSTPActsHTML = document.getElementById("nstp-activities");
 
 var webApp = "<h3></h3>";
-var comProg = "<h3>Seatwork 1 [Due: Thurs]</h3> ";
+var comProg = "<h3></h3> ";
 var sts ="<h3></h3>";
 var purcom = "<h3>Quiz, Task 1,2,3,4 [Tues]</h3>";
 var fildis = "<h3></h3>";
 var ssp = "<h3></h3>";
 var infoman = "<h3>Asynchronous Activity (Table)</h3>";
-var probstat = "<h3>Activity 3,4,5 & 6 [Due: Wed]</h3>";
+var probstat = "<h3>Activity 4,5 & 6 [Due: Wed]</h3>";
 var fitness = "<h3></h3>";
 var nstp = "<h3></h3>";
 
 var thereIsWeb = false;
-var thereIsComprog = true;
+var thereIsComprog = false;
 var thereIsSts = false;
 var thereIsPurcom = true;
 var thereIsFildis = false;
@@ -112,7 +112,7 @@ if (thereIsNstp) {
   NSTPActsHTML.innerHTML = "None";
 }
 
-var updateTime = "<p>Updated: 3/9/2022 9:18 PM</p>";
+var updateTime = "<p>Updated: 3/10/2022 8:54 AM</p>";
 
 acts.innerHTML = "";
 acts.innerHTML =
